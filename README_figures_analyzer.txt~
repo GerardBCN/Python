@@ -1,0 +1,32 @@
+Figures_analyzer version 1.0 15/03/2013
+
+TOOL DESCRIPTION
+--------------------
+- It makes figure recognition through an HTM Cortical Learning Algorithm and a Bayesian analysis.
+
+USAGE 
+--------------------
+- Write into the prompt "figures_analyzer_interface.py" and follow the graphical interface to perform the analysis OR 
+- Write into the prompt "figures_analyzer_terminal folder1 folder2 folder2 foldern" where folder1,2,n are the names of
+the folders which contain the figures to learn
+
+REQUIREMENTS
+--------------------
+- Have the following module installed: easygui (for the GUI version).
+- Have inside the directory figures_analyzer several folders, each one with a kind of figures to learn
+and whose name will be the same to the kind of figures it contains (i.e. folder square with different kind
+of squares and folder cross with different kind of crosses). Several folders are provided inside the project
+directory but additional ones could be add. 
+
+LIMITATIONS
+-------------------
+- It is only able to work with a fixed size of matrices (20x20).
+- Its performance is not good if the position of the objects in the image matrices vary
+
+POSIBLE PROBLEM
+-------------------
+- If you have any problem when you use the program try this:  When you choose in the graphical interface the folders 
+to learn try to click two times into each folder to choose it instead of click only once to select and another one in 
+ok. 
+   
+copyright 2013 Adria Aterido Ballonga, Gerard Martinez Rossell and Bernardo Rodriguez Martin this software is distributed under the same terms as python.
